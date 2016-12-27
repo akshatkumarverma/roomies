@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-	HELLO!! AKSHAT
-</body>
+<html >
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Roomies</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main-page.css">
+    </head>
+    <body ng-app="roomies" ng-controller="mainController as main">
+        
+        <app-header></app-header>
+        <app-content></app-content>
+        <app-footer></app-footer>
+                
+        <script type="text/javascript" src="js/angular_module/angular.js"></script>
+        <script type="text/javascript" src="js/angular_module/angular-ui-router.js"></script>
+        <script type="text/javascript" src="js/ng_config/app.config.js"></script>
+        <script type="text/javascript" src="js/controllers/main.controller.js"></script>
+        <script type="text/javascript" src="js/controllers/imageViewer.controller.js"></script>
+        
+    </body>
 </html>

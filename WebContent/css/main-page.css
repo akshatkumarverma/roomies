@@ -1,0 +1,50 @@
+img {
+     height : 100%;
+     width :  133%;
+}
+.image-viewer{
+    position: absolute;
+    z-index: -1;
+}
+
+.login-details{
+   left: 61%;
+   position: relative;
+   top: 200px;
+   width: 25%
+}
+
+#contentPanel{
+    position: relative;
+}
+
+input[type=text]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label{
+    font-size: 140%;
+    color: white;
+    font-weight: bolder;
+}
+
+button{
+    width: 45%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
